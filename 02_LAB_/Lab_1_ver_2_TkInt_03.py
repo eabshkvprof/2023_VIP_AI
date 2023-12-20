@@ -15,7 +15,7 @@ Created on  Aug  28  2023
 ЗНАЧЕНИЕЯ ВЕСОВ И СМЕЩЕНИЙ ВВОДИТСЯ ИНТЕРАКТИВНО
 
 СТРОИТСЯ НЕЯВНО ЗАДАННАЯ РАЗДЕЛЯЮЩАЯ КРИВАЯ (выход последнего нейрона)
-НА ПОЛЕ ЦВЕТОЧКОВ
+НА ПОЛЕ ЦВЕТНЫХ ТОЧЕК
 
 КРУТИМ СЛАЙДЕРЫ и ПОДБИРАЕМ КРИВУЮ 
 
@@ -61,8 +61,8 @@ Bht = 3
 def activation_linear (x):
     return (x)
 # функция активации - сигмоида
-def activation_sigmoid (x):
-    return 1/(1+np.exp(-x))
+def activation_RELU (x):
+    return 1
 # функция активации - гипертангент
 def activation_tanh (x):
     return np.tanh(x)
